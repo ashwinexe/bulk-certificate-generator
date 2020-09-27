@@ -38,4 +38,4 @@ for i in tqdm(name_list):
         im.save("output/certificate_" + i + ".pdf")
 
 print('Done!')
-time.sleep(0.5)
+time.sleep(1)

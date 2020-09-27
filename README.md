@@ -1,7 +1,7 @@
 <h1>Bulk Certificate Generator</h1>
 
 <p>
-![Sample Certificate](sample.jpg)
+![Sample Certificate](/sample.jpg)
 
 **Run Command ```python certificate_generator.py```**
 

@@ -1,7 +1,8 @@
 <h1>Bulk Certificate Generator</h1>
 
 <p>
-![Sample Certificate](sample.png)
+   ![Sample Certificate](sample.png)
+   ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 **Run Command ```python certificate_generator.py```**
 

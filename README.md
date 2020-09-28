@@ -8,6 +8,7 @@
 **Required Libraries**
 - Pandas ```pip install pandas```
 - PIL   ```pip install image```
+- tqdm ```pip install tqdm```
 
 **Instructions**
 * Data of bulk contacts in csv format (renamed as data.csv)

@@ -26,7 +26,7 @@ for i in tqdm(name_list):
         d = ImageDraw.Draw(im)
         text_color = (0, 0, 0)
         # look up the windows settings -> fonts,  and type exact keyword to use installed fonts
-        font = ImageFont.truetype("corbelli.ttf", 100)
+        font = ImageFont.truetype("Roboto-Regular.ttf", 100)
         w, h = d.textsize(i, font)
         horizontal = (im.width - w)
         vertical = (im.height - h)
@@ -35,7 +35,7 @@ for i in tqdm(name_list):
         location = (horizontal/2, vertical/2 - 50)
         d.text(location, i, anchor="north", fill = text_color, font = font)
         # you can chnage the format to .jpg too!
-        im.save("output/certificate_" + i + ".pdf")
+        im.save("output/certificate_" + i + ".jpg")
 
 print('Done!')
 time.sleep(1)
